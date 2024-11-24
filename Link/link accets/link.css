@@ -1,0 +1,24 @@
+#background{
+    background-color: gray;
+    
+}
+.profile-card{
+background-color: lightgrey;
+max-width: fit-content;
+padding: 10px;
+overflow: hidden;
+border-radius: 5%;  }
+.profile-pic{
+    border-radius: 5%;
+}
+.profile-card main{
+    background-color: aliceblue;
+}
+
+.profile-card :hover{
+    transform: scale(1.03);
+}
+.bio::first-letter{
+    color: brown;
+    font-size: large;
+}
